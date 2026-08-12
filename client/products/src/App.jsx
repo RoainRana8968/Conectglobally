@@ -32,7 +32,7 @@ import ShipperHistory from '../interfaces/shipperhistory';
 function App() {
   return (
     <Routes>
-      <Route path="/home" element={<Login></Login>}></Route>
+      <Route path="/" element={<Login></Login>}></Route>
       <Route path="/usersignup" element={<Usersignup></Usersignup>}></Route>
       <Route path="/userlogin" element={<Userlogin></Userlogin>}></Route>
       <Route path="/hostsignup" element={<Hostsignup></Hostsignup>}></Route>
