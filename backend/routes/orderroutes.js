@@ -1,6 +1,6 @@
 let express = require("express");
 let router = express.Router();
-let ordercontroller = require("../controllers/orderController");
+let ordercontroller = require("../controllers/ordercontroller");
 let authuser = require("../middlewares/userauthorization");
 let authhost = require("../middlewares/hostauthorization");
 

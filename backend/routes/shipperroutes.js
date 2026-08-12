@@ -2,7 +2,7 @@ let express=require("express");
 let router=express.Router();
 let shippercontroller=require("../controllers/shippercontroller");
 let authshipper=require("../middlewares/shipperauthorization")
-let ordercontroller = require("../controllers/orderController");
+let ordercontroller = require("../controllers/ordercontroller");
 const { body } = require("express-validator");
 
 router.post("/signup",shippercontroller.signup);
